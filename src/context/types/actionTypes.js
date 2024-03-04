@@ -1,0 +1,5 @@
+export const productTypes = {
+    STORE_PRODUCTS:"STORE_PRODUCTS",
+    ACTIVE_PRODUCT:"ACTIVE_PRODUCT",
+    ACTIVE_MODE:"ACTIVE_MODE"
+}

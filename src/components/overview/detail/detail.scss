@@ -1,0 +1,32 @@
+.detail_article_container{
+    display:flex;
+    .article_image{
+        flex:5;  
+        display:flex;  
+    }
+    .article_text{
+        flex:7;
+    }
+    .image{
+        width:350px;
+    }
+
+
+    .category{
+        text-align: right;
+        font-family: system-ui;
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+    
+    .title{
+        text-align: right;
+        font-family: system-ui;
+        font-size: 18px;
+        text-transform: math-auto;
+       }
+       .description{
+        font-size: 16px;
+        text-align: justify;
+    }
+}      

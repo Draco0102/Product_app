@@ -1,0 +1,25 @@
+.overview_conatiner {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 10px;
+
+    .image_container {
+        float: left;
+        flex: 2;
+
+        .image {
+            width: 150px;
+            height: 250px;
+            background-size: cover;
+        }
+    }
+
+    .article_container {
+        float: right;
+        flex: 10;
+        padding:40px;
+    }
+}
